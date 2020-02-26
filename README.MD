@@ -4,8 +4,10 @@ Scrypt for collecting metrics about some linux server.
 ## Usage
 Extract file to directory where you will call it.
 Change directory to where you unpacked file.
-Make file executable with 
+Make file executable with command:
+```
 > $ chmod +x metrics.py
+```
 
 Run the file with options:
 
@@ -17,10 +19,12 @@ Run the file with options:
 * -h --help - for help
 
 For example:
+```
 > $ ./metrics.py -c
+```
 
 Output:
-
+```
 > ========== CPU FREQUENCY ==========
 > Physical cores: 1
 >  Total cores: 2
@@ -38,4 +42,4 @@ Output:
 >  iowait 122.76
 >  stolen 0.0
 >  system 203.33
-
+```
