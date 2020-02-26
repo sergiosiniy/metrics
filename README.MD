@@ -1,7 +1,7 @@
-#metrics.py
+# metrics.py
 Scrypt for collecting metrics about some linux server.
 
-##Usage
+## Usage
 Extract file to directory where you will call it.
 Change directory to where you unpacked file.
 Make file executable with 
@@ -9,12 +9,12 @@ Make file executable with
 
 Run the file with options:
 
--c --cpu - for cpu usage info
--s --sys - for system info
--n --net - for network info
--m --mem - for memoty usage info
--d --disk - for disk usage info
--h --help - for help
+* -c --cpu - for cpu usage info
+* -s --sys - for system info
+* -n --net - for network info
+* -m --mem - for memoty usage info
+* -d --disk - for disk usage info
+* -h --help - for help
 
 For example:
 > $ ./metrics.py -c
